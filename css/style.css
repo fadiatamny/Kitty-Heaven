@@ -113,10 +113,11 @@ h2:after {
 /*--------------------------------------*/
 
 header {
-    background-image: linear-gradient(#8383836b,#00000069), url(img/backgroundplus.png);
+    background-image: linear-gradient(#8383836b,#00000069), url(../img/backgroundplus.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .slogan-text-box {
