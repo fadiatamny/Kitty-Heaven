@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1200px) {
+
+    .slogan-text-box {
+        width: 100%;
+        padding: 0 2% 0 2%; 
+    }
+
+    .row {
+        padding: 0 2% 0 2%; 
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    body {
+        font-size: 18px;
+    }
+    
+    section {
+        padding: 60px 0 60px 0;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+    .slogan-text-box {
+        padding: 0 4% 0 4%; 
+    }
+
+    .row {
+        padding: 0 4% 0 4%; 
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0 60px 0;
+    }
+
+    .main-nav{
+        display: none;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .main-nav li{
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        border: 0;
+        display: block;
+        padding: 10px 0px 10px 0px;
+        font-size: 100%;
+    }
+
+    .sticky .ham-mobil {
+        margin-top: 15px;
+    }
+
+    .sticky .ham-mobil ion-icon{
+        color: black;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+    padding: 10px 0px 10px 0px;
+    }   
+
+    .ham-mobil{
+        display: inline-block;
+    }
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+}
